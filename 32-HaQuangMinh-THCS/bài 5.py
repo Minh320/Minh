@@ -1,0 +1,10 @@
+a = float(input("Nhập số tiền gửi ban đầu: "))
+b = float(input("Nhập lãi suất hàng năm: "))
+# Tính lãi (lãi đơn)
+sau_mot_thang = a * (1 + b * 1/12)
+sau_hai_quy = a * (1 + b * 6/12)
+sau_ba_nam = a * (1 + b * 3)
+# In kết quả
+print(f"lãi suất sau 1 tháng: {sau_mot_thang}")
+print(f"lãi suất sau 2 quý: {sau_hai_quy}")
+print(f"lãi suất sau 3 năm: {sau_ba_nam}")
